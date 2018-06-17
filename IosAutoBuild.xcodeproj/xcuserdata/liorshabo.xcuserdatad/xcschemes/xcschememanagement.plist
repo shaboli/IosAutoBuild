@@ -4,10 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IosAutoBuild.xcscheme</key>
+		<key>IosAutoBuild.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>937052E020D6E26B008706C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
