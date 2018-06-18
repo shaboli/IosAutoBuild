@@ -14,6 +14,13 @@
 		937052EF20D6E26D008706C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937052ED20D6E26D008706C7 /* LaunchScreen.storyboard */; };
 		937052FA20D6F6E8008706C7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937052F820D6F6E7008706C7 /* Crashlytics.framework */; };
 		937052FB20D6F6E8008706C7 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937052F920D6F6E7008706C7 /* Fabric.framework */; };
+		937052FF20D786E3008706C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937052E620D6E26B008706C7 /* ViewController.swift */; };
+		9370530020D786E3008706C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937052E420D6E26B008706C7 /* AppDelegate.swift */; };
+		9370530220D786E3008706C7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937052F820D6F6E7008706C7 /* Crashlytics.framework */; };
+		9370530320D786E3008706C7 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937052F920D6F6E7008706C7 /* Fabric.framework */; };
+		9370530520D786E3008706C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937052ED20D6E26D008706C7 /* LaunchScreen.storyboard */; };
+		9370530620D786E3008706C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937052EB20D6E26D008706C7 /* Assets.xcassets */; };
+		9370530720D786E3008706C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937052E820D6E26C008706C7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,8 @@
 		937052F020D6E26D008706C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937052F820D6F6E7008706C7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		937052F920D6F6E7008706C7 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		9370530D20D786E3008706C7 /* IosAutoBuildQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosAutoBuildQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9370530E20D786E3008706C7 /* IosAutoBuild copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IosAutoBuild copy-Info.plist"; path = "/Users/liorshabo/Documents/IosAutoBuild/IosAutoBuild copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9370530120D786E3008706C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9370530220D786E3008706C7 /* Crashlytics.framework in Frameworks */,
+				9370530320D786E3008706C7 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +64,7 @@
 			children = (
 				937052E320D6E26B008706C7 /* IosAutoBuild */,
 				937052E220D6E26B008706C7 /* Products */,
+				9370530E20D786E3008706C7 /* IosAutoBuild copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				937052E120D6E26B008706C7 /* IosAutoBuild.app */,
+				9370530D20D786E3008706C7 /* IosAutoBuildQA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +113,24 @@
 			productReference = 937052E120D6E26B008706C7 /* IosAutoBuild.app */;
 			productType = "com.apple.product-type.application";
 		};
+		937052FD20D786E3008706C7 /* IosAutoBuildQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9370530920D786E3008706C7 /* Build configuration list for PBXNativeTarget "IosAutoBuildQA" */;
+			buildPhases = (
+				937052FE20D786E3008706C7 /* Sources */,
+				9370530120D786E3008706C7 /* Frameworks */,
+				9370530420D786E3008706C7 /* Resources */,
+				9370530820D786E3008706C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosAutoBuildQA;
+			productName = IosAutoBuild;
+			productReference = 9370530D20D786E3008706C7 /* IosAutoBuildQA.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,6 +160,7 @@
 			projectRoot = "";
 			targets = (
 				937052E020D6E26B008706C7 /* IosAutoBuild */,
+				937052FD20D786E3008706C7 /* IosAutoBuildQA */,
 			);
 		};
 /* End PBXProject section */
@@ -137,10 +176,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9370530420D786E3008706C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9370530520D786E3008706C7 /* LaunchScreen.storyboard in Resources */,
+				9370530620D786E3008706C7 /* Assets.xcassets in Resources */,
+				9370530720D786E3008706C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		937052FC20D6F71D008706C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 151f6a3c40ac612ddbeab27e14bda95c1069fd39 e515030d915817fcb8578f549a7fddbc3d38c81357a43a84a4f2b36b11afef39";
+		};
+		9370530820D786E3008706C7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,6 +224,15 @@
 			files = (
 				937052E720D6E26B008706C7 /* ViewController.swift in Sources */,
 				937052E520D6E26B008706C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937052FE20D786E3008706C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937052FF20D786E3008706C7 /* ViewController.swift in Sources */,
+				9370530020D786E3008706C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +500,80 @@
 			};
 			name = adHoc;
 		};
+		9370530A20D786E3008706C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84Q5XXYVD2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IosAutoBuild",
+				);
+				INFOPLIST_FILE = "IosAutoBuild copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintapp.IosAutoBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9370530B20D786E3008706C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84Q5XXYVD2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IosAutoBuild",
+				);
+				INFOPLIST_FILE = "IosAutoBuild copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintapp.IosAutoBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9102021e-5acd-4680-ad15-ff0d990a40b4";
+				PROVISIONING_PROFILE_SPECIFIER = IosAutoBuild_hoc;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9370530C20D786E3008706C7 /* adHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84Q5XXYVD2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IosAutoBuild",
+				);
+				INFOPLIST_FILE = "IosAutoBuild copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintapp.IosAutoBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9102021e-5acd-4680-ad15-ff0d990a40b4";
+				PROVISIONING_PROFILE_SPECIFIER = IosAutoBuild_hoc;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = adHoc;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +593,16 @@
 				937052F420D6E26D008706C7 /* Debug */,
 				937052F520D6E26D008706C7 /* Release */,
 				937052F720D6EEA5008706C7 /* adHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9370530920D786E3008706C7 /* Build configuration list for PBXNativeTarget "IosAutoBuildQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9370530A20D786E3008706C7 /* Debug */,
+				9370530B20D786E3008706C7 /* Release */,
+				9370530C20D786E3008706C7 /* adHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "937052E020D6E26B008706C7"
-               BuildableName = "IosAutoBuild.app"
-               BlueprintName = "IosAutoBuild"
+               BlueprintIdentifier = "937052FD20D786E3008706C7"
+               BuildableName = "IosAutoBuildQA.app"
+               BlueprintName = "IosAutoBuildQA"
                ReferencedContainer = "container:IosAutoBuild.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "937052E020D6E26B008706C7"
-            BuildableName = "IosAutoBuild.app"
-            BlueprintName = "IosAutoBuild"
+            BlueprintIdentifier = "937052FD20D786E3008706C7"
+            BuildableName = "IosAutoBuildQA.app"
+            BlueprintName = "IosAutoBuildQA"
             ReferencedContainer = "container:IosAutoBuild.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "937052E020D6E26B008706C7"
-            BuildableName = "IosAutoBuild.app"
-            BlueprintName = "IosAutoBuild"
+            BlueprintIdentifier = "937052FD20D786E3008706C7"
+            BuildableName = "IosAutoBuildQA.app"
+            BlueprintName = "IosAutoBuildQA"
             ReferencedContainer = "container:IosAutoBuild.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "937052E020D6E26B008706C7"
-            BuildableName = "IosAutoBuild.app"
-            BlueprintName = "IosAutoBuild"
+            BlueprintIdentifier = "937052FD20D786E3008706C7"
+            BuildableName = "IosAutoBuildQA.app"
+            BlueprintName = "IosAutoBuildQA"
             ReferencedContainer = "container:IosAutoBuild.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,7 +85,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "adHoc"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
